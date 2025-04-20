@@ -21,3 +21,12 @@ We trained a Stacking Regressor with the following components:
 
 *Meta Model:*
 - LinearRegression
+
+# **Model Performance**
+Evaluated on the test data using these metrics:
+
+          *Metric	Value*
+MAE (Mean Absolute Error): 4.33 days
+RMSE (Root Mean Squared Error): 7.44 days
+R² Score: 0.4609
+The target variable **(delivery_delay)** shows a normal distribution, indicating the model isn't biased and is generalizing fairly well.
