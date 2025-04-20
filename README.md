@@ -6,14 +6,14 @@ This project predicts the number of days a product delivery might be delayed usi
 
 # **Requirements**
 
-- pandas
-- numpy
-- scikit-learn
-- xgboost
-- matplotlib
-- seaborn
-- joblib
-- streamlit
+- Pandas
+- Numpy
+- Scikit-learn
+- Xgboost
+- Matplotlib
+- Seaborn
+- Joblib
+- Streamlit
 
 # **Installations**
 
@@ -79,21 +79,4 @@ I built a simple interactive Streamlit app where users can input key order detai
 *Example output from the app:* 🚚 Predicted Delivery Delay: -6.89 days.
 
 Negative delay implies that the product may arrive earlier than expected.
-
-# **Features used for training**
-- purchase_month purchase_day_of_week
-- purchase_hour
-- approval_time
-- carrier_time
-- estimated_wait_time
-- same_state
-- same_city
-- order_item_id
-- price
-- freight_value
-- product_weight_g
-- product_volume_cm3
-- payment_installments
-- payment_value
-- Payment Type dummies: payment_boleto, payment_credit_card, payment_debit_card, payment_voucher
 
