@@ -1,6 +1,6 @@
 # E-commerce-Delivery-Delay-prediction-Using-Machine-learning
 
-This project predicts the number of days a product delivery might be delayed using real-world e-commerce data from the Olist dataset. We used a Stacking Regressor to combine multiple models for better performance.
+This project predicts the number of days a product delivery might be delayed using real-world e-commerce data from the Olist dataset. I used a Stacking Regressor to combine multiple models for better performance.
 
 # **Dataset**
 
@@ -41,7 +41,7 @@ I built a simple interactive Streamlit app where users can input key order detai
 
 *Example output from the app:* 🚚 Predicted Delivery Delay: -6.89 days.
 
-Negative delay implies that the product may arrive earlier than expected. 🎉
+Negative delay implies that the product may arrive earlier than expected.
 
 # **Feature used for training**
 - purchase_month purchase_day_of_week
