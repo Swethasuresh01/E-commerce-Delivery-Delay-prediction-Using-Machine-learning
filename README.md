@@ -12,3 +12,12 @@ It includes customer, order, product, payment, and delivery-related features suc
 - Product weight and volume
 - Payment details
 - Delivery timelines
+
+# **Model Used**
+We trained a Stacking Regressor with the following components:
+*Base Models:*
+- XGBRegressor (with best parameters from RandomizedSearchCV)
+- GradientBoostingRegressor
+
+*Meta Model:*
+- LinearRegression
