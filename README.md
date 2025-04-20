@@ -6,6 +6,7 @@ This project predicts the number of days a product delivery might be delayed usi
 
 The dataset used is a merged E-commerce dataset stored in the file:
 combined_data.csv
+
 It includes customer, order, product, payment, and delivery-related features such as:
 - Order timestamps
 - Freight value
@@ -15,6 +16,7 @@ It includes customer, order, product, payment, and delivery-related features suc
 
 # **Model Used**
 I trained a Stacking Regressor with the following components:
+
 *Base Models:*
 - XGBRegressor (with best parameters from RandomizedSearchCV)
 - GradientBoostingRegressor
@@ -37,10 +39,11 @@ I built a simple interactive Streamlit app where users can input key order detai
 - App file: Main.py
 - Model file: final_stacked_model.pkl
 
-*Example output from the app:* 🚚 Predicted Delivery Delay: -6.89 days
+*Example output from the app:* 🚚 Predicted Delivery Delay: -6.89 days.
+
 Negative delay implies that the product may arrive earlier than expected. 🎉
 
-#**Feature used for training**
+# **Feature used for training**
 - purchase_month purchase_day_of_week
 - purchase_hour
 - approval_time
