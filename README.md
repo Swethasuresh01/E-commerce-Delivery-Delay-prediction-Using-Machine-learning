@@ -43,7 +43,7 @@ I built a simple interactive Streamlit app where users can input key order detai
 
 Negative delay implies that the product may arrive earlier than expected.
 
-# **Feature used for training**
+# **Features used for training**
 - purchase_month purchase_day_of_week
 - purchase_hour
 - approval_time
