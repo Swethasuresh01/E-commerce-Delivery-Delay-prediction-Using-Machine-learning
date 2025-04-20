@@ -27,17 +27,6 @@ This project predicts the number of days a product delivery might be delayed usi
 - pip install streamlit
 - pip install pickle
 
-# **Exploratory Data Analysis**
-
-I explored the Olist E-commerce dataset to understand patterns, trends, and relationships in the data. Here are the key steps and visualizations used:
-
-- Missing Value Heatmap: Checked for missing values using heatmap.
-- Target Distribution: Plotted histogram and boxplot for delivery_delay.
-- Correlation Heatmap: Identified relationships between numerical features.
-- Top-Selling Categories: Barplot of most sold product categories.
-- Top States by Orders: Barplot showing states with the most orders.
-- Delivery Time Analysis: Compared actual vs estimated delivery times.
-- These visualizations helped in selecting relevant features and understanding delivery delays.
 
 # **Dataset**
 
@@ -50,6 +39,18 @@ It includes customer, order, product, payment, and delivery-related features suc
 - Product weight and volume
 - Payment details
 - Delivery timelines
+
+# **Exploratory Data Analysis**
+
+I explored the Olist E-commerce dataset to understand patterns, trends, and relationships in the data. Here are the key steps and visualizations used:
+
+- Missing Value Heatmap: Checked for missing values using heatmap.
+- Target Distribution: Plotted histogram and boxplot for delivery_delay.
+- Correlation Heatmap: Identified relationships between numerical features.
+- Top-Selling Categories: Barplot of most sold product categories.
+- Top States by Orders: Barplot showing states with the most orders.
+- Delivery Time Analysis: Compared actual vs estimated delivery times.
+- These visualizations helped in selecting relevant features and understanding delivery delays.
 
 # **Model Used**
 I trained a Stacking Regressor with the following components:
